@@ -16,6 +16,10 @@ body {
   background: #000;
   color: #fff; }
 
+  .hide-on-big-screens{
+  display:none;
+}
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -979,8 +983,40 @@ h1, h2, h3, h4, h5,
   background-image: url("../images/bubble-bg.png");
   background-size: cover;
 }
+.bls-card{
+  background-image: url("../kmgprep-images/bls.jpg");
+  background-size: cover;
+  height: 228px;
+}
+.acls-card{
+  background-image: url("../kmgprep-images/acls.jpg");
+  background-size: cover;
+  height: 228px;
+}
+.pals-card{
+  background-image: url("../kmgprep-images/pals.jpg");
+  background-size: cover;
+  height: 228px;
+}
+
+
+.register-link{
+    position: absolute;
+    margin: 42px 0px 0px -16px;
+    display: block;
+    font-size: x-large;
+}
 .footer-image{
-  background-color: #488faf;
+  /*  background-color: #488faf; */
+  background-image:url('../kmgprep-images/footer-card.png');
+  background-repeat: no-repeat;
+  height:625px;
+}
+.copyright{
+  margin: 262px 0 0 0;
+}
+.white-transparent-bg{
+  background-color: rgba(255,255,255,0.7);
 }
 .remove-bullets-from-ul {
   list-style-type: none;
