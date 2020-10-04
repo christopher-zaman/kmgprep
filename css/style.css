@@ -1012,6 +1012,20 @@ h1, h2, h3, h4, h5,
   background-repeat: no-repeat;
   height:625px;
 }
+.card-padding{
+  padding: 10px;
+}
+.position-home-box{
+  margin: -360px 0 0 0;
+  border: 1px solid green;
+}
+.minus-49-px-margin{
+  margin: -49px 0 0 0;
+}
+
+.larger-text{
+    font-size: xx-large;
+  }
 .copyright{
   margin: 262px 0 0 0;
 }
