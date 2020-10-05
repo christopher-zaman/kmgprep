@@ -998,8 +998,9 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   height: 228px;
 }
-
-
+.float-it-to-the-left{
+  float:left;
+}
 .register-link{
     position: absolute;
     margin: 42px 0px 0px -16px;
@@ -1007,11 +1008,10 @@ h1, h2, h3, h4, h5,
     font-size: x-large;
 }
 .footer-image{
-  /*  background-color: #488faf; */
-  background-image:url('../kmgprep-images/footer-card.png');
-  background-repeat: no-repeat;
-
-  background-size:100%;
+    background-image: url(../kmgprep-images/footer-card.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 599px;
 }
 .card-padding{
   padding: 10px;
@@ -1093,7 +1093,40 @@ h1, h2, h3, h4, h5,
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 }
-
+.smaller-footer-image{
+    background-image: url(../kmgprep-images/10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    position: relative;
+}
 .signature {
     font-size: x-large;
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+/* No media query since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .footer-image{
+      display:none;
+    }
+    .smaller-footer-image{
+      display:block;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
 }
