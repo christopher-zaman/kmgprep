@@ -1001,6 +1001,26 @@ h1, h2, h3, h4, h5,
 .float-it-to-the-left{
   float:left;
 }
+.fix-top-layer{
+  z-index: 1;
+  margin: 200px 0px 0px 600px;
+  position: absolute;
+}
+.fix-top-layer-1{
+  z-index: 1;
+  margin: 250px 0px 0px 950px;
+  position: absolute;
+}
+.fix-top-layer-2{
+  z-index: 1;
+  margin: 300px 0px 0px 950px;
+  position: absolute;
+}
+.fix-top-layer-3{
+  z-index: 1;
+  margin: 350px 0px 0px 950px;
+  position: absolute;
+}
 .register-link{
     position: absolute;
     margin: 42px 0px 0px -16px;
@@ -1103,30 +1123,46 @@ h1, h2, h3, h4, h5,
 .signature {
     font-size: x-large;
 }
+.add-padding-to-the-cards{
+      padding: 0px 30px 5px 35px;
+
+}
+.add-box-shadow{
+    box-shadow: 24px 50px 60px rgba(0, 0, 0, 0);
+}
 /* Extra small devices (portrait phones, less than 576px)*/
 /* No media query since this is the default in Bootstrap*/
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     .footer-image{
       display:none;
     }
     .smaller-footer-image{
       display:block;
     }
+    .hide-on-small-screens{
+      display:none;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-
+@media (max-width: 768px) {
+  .hide-on-small-screens{
+    display:none;
+}
  }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-
+@media (max-width: 992px) {
+  .hide-on-small-screens{
+    display:none;
+}
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
+@media (max-width: 1200px) {
+  .hide-on-small-screens{
+    display:none;
+}
 }
