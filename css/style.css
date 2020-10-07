@@ -19,6 +19,15 @@ body {
   .hide-on-big-screens{
   display:none;
 }
+.full-size-bg-bls{
+  background-image: url("../kmgprep-images/full-size-bg-bls.jpeg");
+  background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-for-section{
+  background-color: rgba(0,0,0,0.4);
+    color: #fff;
+}
 .logo-one-transparent-bg{
   background-image: url("../kmgprep-images/logo-one-transparent-bg.png");
   background-size: contain;
