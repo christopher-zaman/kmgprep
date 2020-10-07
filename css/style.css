@@ -25,6 +25,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.make-border{
+  border-radius: 50%;
+}
 .logo{
   width: 4%;
   position: absolute;
