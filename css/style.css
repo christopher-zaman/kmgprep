@@ -29,6 +29,9 @@ body {
   border-radius: 50%;
   max-width: 50%;
 }
+.h-200{
+  height:200px;
+}
 .logo{
   width: 4%;
   position: absolute;
