@@ -22,11 +22,29 @@ body {
 .full-size-bg-bls{
   background-image: url("../kmgprep-images/full-size-bls.jpg");
   background-size: cover;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
+.full-size-bg-acls{
+  background-image: url("../kmgprep-images/acls-standard.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.full-size-bg-scls{
+  background-image: url("../kmgprep-images/pediatric-advanced-life-support.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/**/
+
+/**/
+
 .bg-for-section{
   background-color: rgba(0,0,0,0.4);
     color: #fff;
+}
+.beige-bg{
+  background: #fbfae6;
+  color: #ee352a;
 }
 .logo-one-transparent-bg{
   background-image: url("../kmgprep-images/logo-one-transparent-bg.png");
