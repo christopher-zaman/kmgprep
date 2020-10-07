@@ -19,6 +19,17 @@ body {
   .hide-on-big-screens{
   display:none;
 }
+.logo-one-transparent-bg{
+  background-image: url("../kmgprep-images/logo-one-transparent-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logo{
+  width: 4%;
+  position: absolute;
+  margin: -16px 0px 0 -187px;
+}
 .upwork-blue {
     background-color: #1d4354;
 }
@@ -997,6 +1008,7 @@ h1, h2, h3, h4, h5,
 .green-bg{
   background-color: #51a0a4;
 }
+
 .primary-care-typography-image{
   background-image: url("../images/primary-care-typography.png");
 }
@@ -1213,6 +1225,50 @@ h1, h2, h3, h4, h5,
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 375px) {
+  .logo {
+    width: 23%;
+    margin: -29px 0 0 0;
+  }
+}
+
+@media (max-width: 411px) {
+  .logo {
+    width: 23%;
+    margin: -29px 0 0 0;
+  }
+}
+@media (max-width: 414px) {
+  .logo {
+    width: 23%;
+    margin: -29px 0 0 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .logo {
+    width: 9%;
+    position: absolute;
+    margin: -31px 0px 0 -212px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 12%;
+    margin: -29px 0 0 0;
+  }
+}
+@media (max-width: 1024px) {
+  .logo {
+    width: 9%;
+    position: absolute;
+    margin: -31px 0px 0 -212px;
+  }
+}
+
+
+
 @media (max-width: 1200px) {
   .fix-top-layer {
     z-index: 1;
